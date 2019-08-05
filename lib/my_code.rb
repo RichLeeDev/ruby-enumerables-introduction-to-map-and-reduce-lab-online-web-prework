@@ -63,7 +63,7 @@ end
    i = 0 
    while i < source_array.length do
      return true if source_array[i] == true
-     i += 0 
+     i += 1 
    end
      return !source_array
    end
